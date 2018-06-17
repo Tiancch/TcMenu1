@@ -9,17 +9,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="243dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginRight="243dp"
-        android:layout_marginStart="32dp"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
         android:layout_marginTop="32dp"
+        android:gravity="fill_vertical|center_horizontal"
         android:text="Hello World!"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="32dp" />
 
 </android.support.constraint.ConstraintLayout>
